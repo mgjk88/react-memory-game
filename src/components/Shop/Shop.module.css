@@ -1,0 +1,9 @@
+.cntr {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 32px;
+    max-width: 1440px;
+}

@@ -1,0 +1,13 @@
+.pic {
+    max-height: 200px;
+    max-width: 200px; 
+    height: 150px;
+}
+
+
+.entry{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
