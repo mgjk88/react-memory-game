@@ -5,7 +5,7 @@ import styles from "./Cart.module.css";
 
 function Cart() {
   let total = 0;
-  let [cartList, setCartList, addToCart, data, error, loading] =
+  let {cartList, setCartList, error, loading} =
     useOutletContext();
   let transformedCartList = Object.values(cartList);
   if (loading) return <div>loading...</div>;

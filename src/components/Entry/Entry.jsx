@@ -1,11 +1,9 @@
 import propTypes from "prop-types";
-import { useState } from 'react';
 import styles from "./Entry.module.css";
 import { useOutletContext } from "react-router-dom";
 
 function Entry({item}) {
-    let [cartList, setCartList] = useOutletContext();
-    let [qty, setQty] = useState(item.qty);
+    let {cartList, setCartList} = useOutletContext();
   return (
     <div className={styles.entry}>
       <img className={styles.pic} src={item.img} alt={item.title} />
@@ -14,7 +12,6 @@ function Entry({item}) {
         <input
           type="number"
           onInput={(e) => {
-                setQty(e.target.value);
                 let newCartList = {...cartList}
                 newCartList[item.id].qty = e.target.value;
                 setCartList(newCartList);

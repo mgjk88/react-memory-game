@@ -37,7 +37,7 @@ function App() {
         )}
       </nav>
       <main>
-        <Outlet context={[cartList, setCartList, addToCart, data, error, loading]} />
+        <Outlet context={{cartList, setCartList, addToCart, data, error, loading}} />
       </main>
     </>
       

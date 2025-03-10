@@ -4,7 +4,7 @@ import styles from "./Shop.module.css";
 import { useOutletContext } from "react-router-dom";
 
 function Shop() {
-  let [cartList, setCartList, addToCart, data, error, loading] = useOutletContext();
+  let { addToCart, data, error, loading} = useOutletContext();
   if (loading) return <>loading</>;
   if (error) return <ErrorPage error={error}/>;
   return (
