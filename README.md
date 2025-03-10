@@ -1,3 +1,7 @@
+This is a simple React application to simulate an e-commerce site
+
+
+
 This is my attempt at deriving a use case specification and coming up with a class UML diagram. Did not create a sequence UML diagram.
 
 Use case specification: 
