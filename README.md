@@ -1,3 +1,9 @@
+This is a simple React application to simulate an e-commerce site
+
+
+
+This is my attempt at deriving a use case specification and coming up with a class UML diagram. Did not create a sequence UML diagram.
+
 Use case specification: 
 - Home page
 - Shop page contains shopping cart, displays products
@@ -9,4 +15,5 @@ Use case specification:
 - shopping cart has submit order button, on submission of order, reset cart
 
 classUML:
-![class UML diagram](./classUML.drawio.svg)
+
+- ![class UML diagram](./classUML.drawio.svg)
