@@ -1,6 +1,5 @@
 import { useOutletContext } from "react-router-dom";
-import { useState } from "react";
-import Entry from "../../Entry/Entry";
+import Entry from "../Entry/Entry";
 import ErrorPage from "../../ErrorPage";
 import styles from "./Cart.module.css";
 

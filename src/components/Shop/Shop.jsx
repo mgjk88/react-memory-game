@@ -1,5 +1,5 @@
 import ErrorPage from "../../ErrorPage";
-import Product from "../../Product/Product";
+import Product from "../Product/Product";
 import styles from "./Shop.module.css";
 import { useOutletContext } from "react-router-dom";
 
